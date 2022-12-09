@@ -3,41 +3,113 @@ h1 {
     text-align: center
 }
 
-.nav{
-    background-color: aquamarine;
-    justify-content:space-around;
-    padding: 0 33%;
-position: fixed;
-width: 100%;
+.body {
+    
+   background-color: rgb(176, 84, 19);
+   
 }
 
+.nav {
+    
+    background-color: rgb(246, 246, 246);
+    justify-content: space-around;
+    padding: 0 33%;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 10px 8px #888888;
+    font-size: 20px;
+    
+}
+
+.jumbo-first, .jumbo-end{
+    
+    background-color: aqua;
+}
 .container p {
     font-size: 40px;
     text-align: center;
 
 }
-.work {
-width: 100%;
+
+.experience-section {
+    /* width: 100%; */
     /* gap: 20px; */
     /* padding: 10px; */
     /* margin: 0 auto; */
-
+    background-color: black;
+    margin-top:30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
 
 .work {
     /* margin: auto; */
-padding: 20px 0px 20px 70px;
+    padding: 20px 0px 20px 30px;
 
 }
+
+.card {
+    padding: 60px;
+}
+
 .jumbotron {
-text-align: center;
+    text-align: center;
 }
 
 .conatiner a {
 
+    padding-top: 50px;
+}
+
+.footer-section {
+    padding-top: 50px;
+    justify-content: space-around;
+    background-color: rgb(47, 44, 44);
+    height: 500px;
+    color: white;
+}
+
+.skills-section {
+
+    background-color: blueviolet;
+margin-top: 0px;
 padding-top: 50px;
+}
 
-.form {
+.skills {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
 
-    
+.row {
+
+    justify-content: space-around;
+}
+.btn {
+
+    margin-left: 20px;
+}
+
+.work-one {
+margin-top: 50px;
+
+}
+.work-two{
+    margin-top: 50px;
+}
+
+.about-contact{
+padding-top: 50px;
+padding-bottom: 50px;
+    background-color: blue;
+
+}
+
+.about-contact h1{
+    color: white;
+}
+.about{
+
+    margin: 50px 0 50px 0;
 }
