@@ -1,4 +1,43 @@
 h1 {
     color: brown;
+    text-align: center
 }
 
+.nav{
+    background-color: aquamarine;
+    justify-content:space-around;
+    padding: 0 33%;
+position: fixed;
+width: 100%;
+}
+
+.container p {
+    font-size: 40px;
+    text-align: center;
+
+}
+.work {
+width: 100%;
+    /* gap: 20px; */
+    /* padding: 10px; */
+    /* margin: 0 auto; */
+
+}
+
+.work {
+    /* margin: auto; */
+padding: 20px 0px 20px 70px;
+
+}
+.jumbotron {
+text-align: center;
+}
+
+.conatiner a {
+
+padding-top: 50px;
+
+.form {
+
+    
+}
