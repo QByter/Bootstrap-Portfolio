@@ -19,12 +19,15 @@ h1 {
     box-shadow: 10px 10px 8px #888888;
     font-size: 20px;
     z-index: 10;
+
 }
 
 .jumbotron {
 
-    background-image: url(https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg);
-    height: 600px;
+    /* background-image: url(https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg); */
+    background-image: url() ;
+   height: 800px; 
+    /* background-repeat: no-repeat; */
 }
 
 .jumbo-first, .jumbo-end{
@@ -34,7 +37,8 @@ h1 {
 .container p {
     font-size: 40px;
     text-align: center;
-
+    color: white;
+    font-weight: 500;
 }
 
 .experience-section {
@@ -42,7 +46,7 @@ h1 {
     /* gap: 20px; */
     /* padding: 10px; */
     /* margin: 0 auto; */
-    /* background-color: black; */
+    background-color: ;
     margin-top:30px auto;
     margin-bottom: ;
     padding-top: 50px;
@@ -90,7 +94,7 @@ h1 {
 
 .skills-section {
 
-    background-color: rgb(233, 231, 231);
+    background-color: rgb(255, 255, 255);
 margin-top: 0px;
 padding-top: 50px;
 }
@@ -120,7 +124,7 @@ margin-bottom: 50px;
 .about-me{
 padding-top: 50px;
 padding-bottom: 50px;
-    background-color: blue;
+    background-color:white;
 
 }
 
@@ -128,8 +132,13 @@ padding-bottom: 50px;
     color: white;
 }
 .about{
-
     margin: 50px 0 50px 0;
+}
+
+.about .card {
+    background-color:white;
+    font-size: 30px;
+
 }
 .contactme {
 
