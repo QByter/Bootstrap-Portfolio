@@ -1,5 +1,5 @@
 h1 {
-    color: brown;
+    /* color: rgb(246, 246, 246); */
     text-align: center
 }
 
@@ -18,7 +18,13 @@ h1 {
     width: 100%;
     box-shadow: 10px 10px 8px #888888;
     font-size: 20px;
-    
+    z-index: 10;
+}
+
+.jumbotron {
+
+    background-image: url(https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg);
+    height: 600px;
 }
 
 .jumbo-first, .jumbo-end{
@@ -36,21 +42,27 @@ h1 {
     /* gap: 20px; */
     /* padding: 10px; */
     /* margin: 0 auto; */
-    background-color: black;
-    margin-top:30px;
+    /* background-color: black; */
+    margin-top:30px auto;
+    margin-bottom: ;
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-content:space-around;
 }
 
-
-.work {
-    /* margin: auto; */
-    padding: 20px 0px 20px 30px;
-
+.card-header {
+    text-align: center;
+    font-weight: 600;
 }
+.card-body{
+    text-align: center;
+}
+
 
 .card {
     padding: 60px;
+    background-color: #f0f0f0;
+    border-color: white;
 }
 
 .jumbotron {
@@ -63,16 +75,22 @@ h1 {
 }
 
 .footer-section {
-    padding-top: 50px;
+    padding-top: 20px;
     justify-content: space-around;
     background-color: rgb(47, 44, 44);
     height: 500px;
     color: white;
+
+}
+.footer-section h2 {
+
+    font-weight: 100;
+    font-size: 25px;
 }
 
 .skills-section {
 
-    background-color: blueviolet;
+    background-color: rgb(233, 231, 231);
 margin-top: 0px;
 padding-top: 50px;
 }
@@ -93,23 +111,50 @@ padding-top: 50px;
 
 .work-one {
 margin-top: 50px;
-
+margin-bottom: 50px;
 }
 .work-two{
     margin-top: 50px;
 }
 
-.about-contact{
+.about-me{
 padding-top: 50px;
 padding-bottom: 50px;
     background-color: blue;
 
 }
 
-.about-contact h1{
+.contact h1{
     color: white;
 }
 .about{
 
     margin: 50px 0 50px 0;
+}
+.contactme {
+
+    background-color: azure;
+    padding: 50px 0 50px 0;
+
+}
+.contact {
+    padding: 50px 0 50px 0;
+}
+
+#email {
+    padding:0 100px 0 100px;
+}
+.sideAccent {
+
+  background: #007bff;
+  width: 15px;
+}
+
+.form-group {
+
+    margin-right: 600px;
+}
+ul {
+
+    padding: 20px;
 }
